@@ -1,16 +1,16 @@
 %define Product NuPlone
 %define product nuplone
 %define name    zope-%{Product}
-%define version 0.9.2
+%define version 0.9.3
 %define release %mkrel 1
 
 %define zope_minver     2.7
 %define zope_home       %{_prefix}/lib/zope
 %define software_home   %{zope_home}/lib/python
 
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:	    %{name}
+Version:    %{version}
+Release:    %{release}
 Summary:    A new look for Plone 3
 License:    GPL
 Group:      System/Servers
